@@ -1,0 +1,83 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/nft-marketplace/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/nft-marketplace",
+        "index": "apps/nft-marketplace/src/index.html",
+        "baseHref": "/",
+        "main": "apps/nft-marketplace/src/main.tsx",
+        "polyfills": "apps/nft-marketplace/src/polyfills.ts",
+        "tsConfig": "apps/nft-marketplace/tsconfig.app.json",
+        "assets": [
+          "apps/nft-marketplace/src/favicon.ico",
+          "apps/nft-marketplace/src/assets"
+        ],
+        "styles": ["apps/nft-marketplace/src/styles.css"],
+        "scripts": [],
+        "webpackConfig": "@nrwl/react/plugins/webpack"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/nft-marketplace/src/environments/environment.ts",
+              "with": "apps/nft-marketplace/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/web:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "nft-marketplace:build",
+        "hmr": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "nft-marketplace:build:development"
+        },
+        "production": {
+          "buildTarget": "nft-marketplace:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/nft-marketplace/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/nft-marketplace"],
+      "options": {
+        "jestConfig": "apps/nft-marketplace/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
