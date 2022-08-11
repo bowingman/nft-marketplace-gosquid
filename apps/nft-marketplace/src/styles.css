@@ -1,1 +1,18 @@
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+@font-face {
+  font-family: 'drone-ranger-pro';
+  src: url('/assets/fonts/Drone.Ranger.Pro/DroneRangerPro-Regular.ttf')
+      format('truetype'),
+    url('/assets/fonts/Drone.Ranger.Pro/DroneRangerPro-Regular.ttf')
+      format('truetype');
+}
+/* background */
+.home-back {
+  @apply min-h-screen bg-no-repeat bg-cover bg-center overflow-auto bg-back bg-[url('/assets/images/back.png')];
+}
