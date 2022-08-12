@@ -22,7 +22,7 @@ html {
 }
 
 .new-arrival-back {
-  @apply w-full bg-no-repeat bg-cover bg-center overflow-auto bg-back bg-[url('/assets/images/newArrival.png')];
+  @apply h-[300px] bg-no-repeat bg-cover bg-center overflow-auto bg-back bg-[url('/assets/images/newArrival.png')];
 }
 
 /* font style */
@@ -32,6 +32,10 @@ html {
 
 .paragraph-text {
   @apply font-inter font-medium text-sm;
+}
+
+.header-16-medium-text {
+  @apply font-inter font-medium text-base leading-6;
 }
 
 /* button style */
