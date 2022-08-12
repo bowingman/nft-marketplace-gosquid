@@ -46,3 +46,15 @@ html {
 .secondary-button {
   @apply border-solid border-[1px] border-white rounded box-border font-inter font-semibold text-base;
 }
+
+.title-40-text {
+  @apply font-drone font-bold text-[40px] leading-[56px] not-italic;
+}
+
+.caption-12-medium-text {
+  @apply font-inter not-italic font-medium text-xs leading-5;
+}
+
+.title-36-text {
+  @apply font-drone font-bold text-[36px] leading-8 not-italic;
+}
