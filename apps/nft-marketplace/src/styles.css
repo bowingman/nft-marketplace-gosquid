@@ -18,7 +18,7 @@ html {
 }
 /* background */
 .main-back {
-  @apply bg-no-repeat bg-cover bg-center overflow-auto bg-back bg-[url('/assets/images/back.png')];
+  @apply min-h-screen bg-no-repeat bg-cover bg-center overflow-auto bg-back bg-[url('/assets/images/back.png')];
 }
 
 .new-arrival-back {
