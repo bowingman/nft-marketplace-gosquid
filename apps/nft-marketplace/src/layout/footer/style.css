@@ -1,0 +1,11 @@
+.title-20-text {
+  @apply font-drone font-bold text-xl leading-8
+}
+
+.header-16-medium-text {
+  @apply font-inter font-medium text-base leading-6
+}
+
+.caption-12-medium-text {
+  @apply font-inter font-medium text-xs leading-5
+}
