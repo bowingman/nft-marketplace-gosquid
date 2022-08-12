@@ -13,7 +13,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        white: '#FFFFFF',
         back: '#1E1E1E',
+        yellow: '#FBC625',
       },
       fontFamily: {
         inter: ['"Inter"', 'sans-serif'],

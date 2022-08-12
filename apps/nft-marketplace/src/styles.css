@@ -12,7 +12,33 @@
     url('/assets/fonts/Drone.Ranger.Pro/DroneRangerPro-Regular.ttf')
       format('truetype');
 }
+
+html {
+  @apply text-white;
+}
 /* background */
-.home-back {
-  @apply min-h-screen bg-no-repeat bg-cover bg-center overflow-auto bg-back bg-[url('/assets/images/back.png')];
+.main-back {
+  @apply bg-no-repeat bg-cover bg-center overflow-auto bg-back bg-[url('/assets/images/back.png')];
+}
+
+.new-arrival-back {
+  @apply w-full bg-no-repeat bg-cover bg-center overflow-auto bg-back bg-[url('/assets/images/newArrival.png')];
+}
+
+/* font style */
+.title-40-text {
+  @apply font-drone font-bold text-[40px] leading-[56px];
+}
+
+.paragraph-text {
+  @apply font-inter font-medium text-sm;
+}
+
+/* button style */
+.primary-button {
+  @apply bg-gradient-to-r from-[#DA458F] to-[#DA34DD] rounded font-inter font-semibold text-base;
+}
+
+.secondary-button {
+  @apply border-solid border-[1px] border-white rounded box-border font-inter font-semibold text-base;
 }
