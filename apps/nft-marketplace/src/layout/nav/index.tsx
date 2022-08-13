@@ -2,7 +2,7 @@ import './style.css';
 
 const Header = () => {
   return (
-    <nav className="bg-[#17161A]/[.7] fixed w-full h-20">
+    <nav className="bg-[#17161A]/[.7] fixed w-full h-20 z-10">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-20">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -103,6 +103,9 @@ const Header = () => {
             <button className="ml-auto mr-[40px] w-[160px] font-inter font-semibold text-white h-[40px] rounded-[4px] bg-gradient-91.47 from-[#DA458F] to-[#DA34DD]">
               Connect Wallet
             </button>
+
+            <img src="/assets/images/nav-button-1.png" />
+            <img src="/assets/images/nav-button-2.png" className="pl-4" />
             <div className="ml-3 relative">
               <div>
                 <button

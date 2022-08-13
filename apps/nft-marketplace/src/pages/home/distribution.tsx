@@ -24,7 +24,7 @@ const Distribution = () => {
           <div className="bg-[#1E1E1E]" key={id}>
             <div
               data-theme="mytheme"
-              className="percentage font-drone text-3xl w-[200px] h-[200px] radial-progress border-[#DA458F] border-2 border text-navbar bg-primary"
+              className="percentage font-drone text-3xl w-[200px] h-[200px] radial-progress border-[#DA458F] text-navbar bg-primary"
               style={setStyle(percent)}
             >
               <span className="content flex items-center rounded-3xl">
