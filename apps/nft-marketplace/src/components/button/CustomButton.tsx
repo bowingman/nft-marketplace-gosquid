@@ -14,7 +14,7 @@ const CustomButton = ({ model, label, padding }: CustomButtonProps) => {
         model === 'secondary' ? 'secondary-button' : 'primary-button'
       } ${padding ? padding : 'py-2 px-5'}`}
     >
-      {label}
+      <span className="font-drone">{label}</span>
     </button>
   );
 };

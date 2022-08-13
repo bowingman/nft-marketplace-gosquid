@@ -13,12 +13,12 @@ const PlayerItem = ({
 }) => {
   return (
     <div
-      className={`rounded-md flex border-2 border-[${borderColor}] justify-between items-center mx-[80px] my-[15px] text-white`}
+      className={`rounded-md flex border-2 border-[${borderColor}] items-center mx-[109px] my-[15px] text-white`}
     >
-      <div className="leading-6 font-medium font-inter text-base mx-[60px] my-[28px]">
+      <div className="leading-6 font-medium font-inter text-base ml-[60px] mr-[38px] my-[28px]">
         {id}
       </div>
-      <div className="flex items-center">
+      <div className="flex items-center w-[135px]">
         <img src={`${avatarUrl}`} alt="avatar" />
         <div className="leading-6 font-medium font-inter text-base pl-2">
           {player}
