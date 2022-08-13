@@ -6,6 +6,7 @@ import EarnNft from './earnNft';
 import NewArrival from './newArrival';
 import PlayRight from './playRight';
 import Partner from './partner';
+import Distribution from './distribution';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <NewArrival />
       <EarnNft />
       <Play />
+      <Distribution />
       <PlayRight />
       <Partner />
       <CommunityList />
