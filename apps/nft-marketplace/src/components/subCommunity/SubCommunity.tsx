@@ -4,7 +4,7 @@ interface PROPS {
   name: string;
 }
 
-const Community = ({ Icon, title, name }: PROPS) => {
+const SubCommunity = ({ Icon, title, name }: PROPS) => {
   return (
     <div className="relative">
       {Icon}
@@ -16,4 +16,4 @@ const Community = ({ Icon, title, name }: PROPS) => {
   );
 };
 
-export default Community;
+export default SubCommunity;
