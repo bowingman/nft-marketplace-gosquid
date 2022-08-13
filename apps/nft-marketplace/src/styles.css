@@ -125,3 +125,13 @@ html {
   border: 1px solid #FBC625;
   filter: drop-shadow(-12px 12px 0px #101010);
 }
+
+.play-right-back {
+  background: linear-gradient(145.42deg, rgba(177, 153, 90, 0) 57.64%, #FBC625 158.75%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #FBC625;
+  border-left: 1px solid #FBC625;
+  border-right: 1px solid #FBC625;
+}
