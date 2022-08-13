@@ -12,13 +12,13 @@ const EarnNft = () => {
   return (
     <div className="relative">
       <img src={GridBackground} alt="" className="absolute top-[48%]" />
-      <div className="container mx-auto">
-        <div className="pt-[120px] flex flex-col items-center">
+      <div className="px-[160px]">
+        <div className="flex flex-col items-center">
           <SubTitle
             title="Jump to earn nft game"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
           />
-          <div className="w-full flex pt-[156px] flex-col md:flex-row gap-[150px] md:gap-10 justify-center">
+          <div className="flex mt-[106px] flex-col md:flex-row gap-[150px] md:gap-10 justify-center">
             <div>
               <EarnNftCard
                 backImage={rectangle1}
