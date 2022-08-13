@@ -14,10 +14,10 @@ const EarnNftCard = ({
   return (
     <div>
       <div className="flex justify-center items-center relative">
-        <img src={backImage} alt="background earn nft image" />
+        <img src={backImage} alt="background earn nftImage" />
         <img
           src={characterImage}
-          alt="character earn nft image"
+          alt="character earn nftImage"
           className="absolute h-[140%]"
         />
       </div>

@@ -64,10 +64,6 @@ const Distribution = () => {
       <div className="absolute 2xl:left-[211px] sm:hidden 2xl:block top-[900px]">
         <img src="/assets/images/vector-4.png" alt="vector-4.png" />
       </div>
-
-      {/* <span className="flex justify-center items-center text-5xl text-[#FBC625] not-italic font-bold">
-        TOKEN DISTRIBUTION
-      </span> */}
       <div className="w-[1018px] mt-[100px] grid grid-rows-2 grid-flow-col gap-16 text-center pl-5 pt-5">
         {results()}
       </div>

@@ -8,7 +8,7 @@ const SubTitle = ({ title, description }: SubTitleProps) => {
   return (
     <div className="mt-[120px] w-full md:w-1/2">
       <h1 className="title-40-text text-center text-yellow">{title}</h1>
-      {!!description ? (
+      {description ? (
         <p className="header-16-medium-text text-center">{description}</p>
       ) : (
         ''
