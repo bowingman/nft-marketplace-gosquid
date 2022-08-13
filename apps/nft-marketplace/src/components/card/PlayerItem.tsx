@@ -13,7 +13,7 @@ const PlayerItem = ({
 }) => {
   return (
     <div
-      className={`rounded-md flex border-2 border-[${borderColor}] items-center mx-[109px] my-[15px] text-white`}
+      className={`rounded-md flex border-2 border-[${borderColor}] items-center my-[15px] text-white`}
     >
       <div className="leading-6 font-medium font-inter text-base ml-[60px] mr-[38px] my-[28px]">
         {id}

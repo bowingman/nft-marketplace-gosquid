@@ -1,4 +1,5 @@
 import playImage from '../../assets/images/play-button.png';
+import CustomButton from '../../components/button/CustomButton';
 
 const Play = () => {
   return (
@@ -11,8 +12,12 @@ const Play = () => {
             className="absolute bottom-[43px] left-[50px] z-10"
           ></img>
           <div className="text-[#FFFFFF] text-[32px] pr-7 pt-6 font-inter text-4xl text-[#89888B] width-9/10 text-[16px] leading-6 absolute bottom-0 bg-[#000000]/[.7] w-full h-[133px] text-right ">
-            <p>LET'S PLAY WITH US!</p>
-            <button className="pt-1 pr-6 play-game mt-4">PLAY GAME</button>
+            <p className="font-drone font-bold text-[32px]">
+              LET'S PLAY WITH US!
+            </p>
+            <div className="pt-1 mt-4">
+              <CustomButton label="PLAY GAME" />
+            </div>
           </div>
         </div>
       </div>
