@@ -7,6 +7,7 @@ import NewArrival from './newArrival';
 import PlayRight from './playRight';
 import Partner from './partner';
 import Distribution from './distribution';
+import SearchNews from './searchNews';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Distribution />
       <PlayRight />
       <Partner />
+      <SearchNews />
       <CommunityList />
       <Footer />
     </div>
