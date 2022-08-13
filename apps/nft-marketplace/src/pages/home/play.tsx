@@ -6,12 +6,13 @@ const Play = () => {
     <div className="xl:grid xl:grid-cols-2 xl:gap-2 px-[160px]">
       <div className="bg-[url('/assets/images/play.png')] bg-cover sm: h-[400px] relative">
         <div className="flex bg-[#2A282F] ">
-          <div className="blur flex items-center justify-center font-drone text-4xl text-[#17161A] absolute w-[10rem] bottom-0 w-[133px] bg-[#FBC625]/[.13] h-[133px]"></div>
+          <div className="blur flex items-center justify-center font-drone text-4xl text-[#17161A] absolute bottom-0 w-[133px] bg-[#FBC625]/[.13] h-[133px]"></div>
           <img
             src={playImage}
             className="absolute bottom-[43px] left-[50px] z-10"
-          ></img>
-          <div className="text-[#FFFFFF] text-[32px] pr-7 pt-6 font-inter text-4xl text-[#89888B] width-9/10 text-[16px] leading-6 absolute bottom-0 bg-[#000000]/[.7] w-full h-[133px] text-right ">
+            alt="palyImage.png"
+          />
+          <div className="pr-7 pt-6 font-inter text-4xl text-white width-9/10 text-[16px] leading-6 absolute bottom-0 bg-[#000000]/[.7] w-full h-[133px] text-right ">
             <p className="font-drone font-bold text-[32px]">
               LET'S PLAY WITH US!
             </p>
@@ -54,8 +55,6 @@ const Play = () => {
             ad minim veniam, quis nostrud exercitation ullamco laborisfds.
           </div>
         </div>
-        {/* <div className="bg-[#3D3B44]">2</div>
-        <div className="bg-[#2A282F]">3</div> */}
       </div>
     </div>
   );

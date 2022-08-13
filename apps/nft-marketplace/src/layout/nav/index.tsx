@@ -104,8 +104,15 @@ const Header = () => {
               Connect Wallet
             </button>
 
-            <img src="/assets/images/nav-button-1.png" />
-            <img src="/assets/images/nav-button-2.png" className="pl-4" />
+            <img
+              src="/assets/images/bxs-chevron-down.svg"
+              alt="bxs-chevron-down.svg"
+            />
+            <img
+              src="/assets/images/world.svg"
+              className="pl-4"
+              alt="world.svg"
+            />
             <div className="ml-3 relative">
               <div>
                 <button
