@@ -16,3 +16,17 @@
 .home-back {
   @apply min-h-screen bg-no-repeat bg-cover bg-center overflow-auto bg-back bg-[url('/assets/images/back.png')];
 }
+
+.nav-back {
+  background: rgba(23, 22, 26, 0.7);
+}
+
+.container {
+  max-width: 1600px;
+  height: 100%;
+}
+
+.arrival_rect {
+  border: 1px solid #FBC625;
+  filter: drop-shadow(-12px 12px 0px #101010);
+}
