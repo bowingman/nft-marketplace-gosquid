@@ -1,13 +1,15 @@
 import Footer from '../../layout/footer';
-import CommunityList from './commuinty';
+import CommunityList from './community';
 import Intro from './intro';
+import Play from './play';
 import EarnNft from './earnNft';
 
 const Home = () => {
   return (
-    <div className="bg-[#1E1E1E]">
+    <div>
       <Intro />
       <EarnNft />
+      <Play />
       <CommunityList />
       <Footer />
     </div>
