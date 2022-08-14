@@ -4,7 +4,7 @@ const NewArrival = () => {
   return (
     <div className="relative w-[100%] h-[275px]">
       <div className="absolute w-[100%] h-[300px] left-0 top-[-48px] bg-[url('/assets/images/yellowbg.png')] text-center flex items-center">
-        <div className="mx-[160px] flex items-center justify-between w-full">
+        <div className="mx-[160px] flex items-baseline justify-between w-full">
           <div className="flex items-center">
             <img
               src="/assets/images/NewArribal.png"

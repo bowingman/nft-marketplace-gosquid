@@ -32,13 +32,13 @@ const Distribution = () => {
               </span>
             </div>
             <div className="mt-[25px]">
-              <span className="text-center front-drone text-[#FBC625] not-italic font-bold">
+              <span className="text-center font-drone text-[#FBC625] not-italic font-bold">
                 {contents[id]}
               </span>
             </div>
 
             <div>
-              <span className="text-center front-drone text-white not-italic font-bold text-xs">
+              <span className="text-center font-drone text-white not-italic font-bold text-xs">
                 $25,000,000
               </span>
             </div>

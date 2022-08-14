@@ -7,11 +7,11 @@ const ScrollButton = () => {
   };
 
   return (
-    <div className="absolute left-[50%] bottom-[60px]">
+    <div className="absolute left-[50%] bottom-[92px]">
       <button onClick={scrollToTop} className="font-bold text-base font-inter">
         Scroll down
       </button>
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-[16px]">
         <img src="/assets/images/vector.png" alt="vector.png"></img>
       </div>
     </div>

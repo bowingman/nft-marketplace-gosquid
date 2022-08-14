@@ -10,20 +10,20 @@ const Footer = () => {
         <div className="w-[40%]">
           <h4 className="title-20-text">NAVIGATION</h4>
           <div className="flex flex-row header-16-medium-text mt-[40px]">
-            <div className="mr-[40px]">
-              <p>Home</p>
-              <p>About us</p>
-              <p>Our team</p>
+            <div className="mr-[60px] font-medium font-inter text-[16px] leading-6">
+              <p className="mb-3">Home</p>
+              <p className="mb-3">About us</p>
+              <p className="mb-3">Our team</p>
             </div>
-            <div className="mr-[40px]">
-              <p>Whitepaper</p>
-              <p>Marketplace</p>
-              <p>Roadmap</p>
+            <div className="mr-[45px]">
+              <p className="mb-3">Whitepaper</p>
+              <p className="mb-3">Marketplace</p>
+              <p className="mb-3">Roadmap</p>
             </div>
-            <div className="mr-[40px]">
-              <p>FAQs</p>
-              <p>News</p>
-              <p>Community</p>
+            <div className="mr-[45px]">
+              <p className="mb-3">FAQs</p>
+              <p className="mb-3">News</p>
+              <p className="mb-3">Community</p>
             </div>
           </div>
           <div className="mt-[72px]">
@@ -46,8 +46,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="lg:absolute lg:bottom-0 xl:relative">
-          <h4 className="title-20-text">CONTACT US</h4>
-          <div className="flex flex-row items-center gap-[9px]">
+          <h4 className="title-20-text mb-[40px]">CONTACT US</h4>
+          <div className="flex flex-row items-center gap-[9px] mb-3">
             <svg
               width="16"
               height="16"
@@ -84,12 +84,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="my-[40px]" />
+      <hr className="my-[40px] border-[#3A3841]" />
       <div className="flex flex-row justify-between">
         <div>
           <span>©2022 GoSquid. All Rights reserved.</span>
         </div>
-        <div className="flex flex-row header-16-medium-text gap-[60px]">
+        <div className="flex flex-row header-16-medium-text gap-[60px] font-inter text-base">
           <span>Security</span>
           <span>Legal</span>
           <span>Privacy</span>

@@ -10,7 +10,9 @@ const playRight = () => {
             <p className="font-drone bold text-yellow text-[80px]">PLAY</p>
             <p className="font-drone bold text-yellow text-[80px]">RIGHT</p>
             <p className="font-drone bold text-yellow text-[80px]">NOW</p>
-            <CustomButton label="PLAY NOW" padding="py-[18px] px-[54px]" />
+            <div className="py-[18px] px-[54]px">
+              <CustomButton label="PLAY GAME" padding="py-[10px] px-[54px]" />
+            </div>
           </div>
         </div>
         <div className="2xl:absolute flex 2xl:bottom-[0px] 2xl:left-[285px]">
@@ -20,17 +22,17 @@ const playRight = () => {
             className="2xl:block sm:hidden"
             width="541px"
           />
-          <div className="2xl:mt-[160px] mx-[109px]">
+          <div className="2xl:mt-[160px] mx-[109px] font-drone">
             <div className="flex text-white w-[505px]">
-              <div className="leading-6 font-medium font-inter text-base ml-[60px] mr-[38px] my-[8px]">
+              <div className="leading-6 font-medium font-drone text-base ml-[60px] mr-[38px] my-[8px]">
                 #
               </div>
               <div className="flex items-center w-[150px]">
-                <div className="leading-6 font-medium font-inter text-base pl-2">
+                <div className="leading-6 font-medium font-drone text-base pl-2">
                   PLAYER
                 </div>
               </div>
-              <div className="leading-6 font-medium font-inter text-base mx-[45px] my-[8px] flex">
+              <div className="leading-6 font-medium font-drone text-base mx-[45px] my-[8px] flex">
                 WINNINGS
               </div>
             </div>
@@ -47,6 +49,7 @@ const playRight = () => {
               winnings={'19 466.92'}
               borderColor="#D6D6D6"
               avatarUrl={'/assets/images/avatar2.png'}
+              opacity={'opacity-80'}
             />
             <PlayerItem
               id={3}
@@ -54,6 +57,7 @@ const playRight = () => {
               winnings={'19 466.92'}
               borderColor="#89888B"
               avatarUrl={'/assets/images/avatar3.png'}
+              opacity={'opacity-60'}
             />
             <PlayerItem
               id={4}
@@ -61,6 +65,7 @@ const playRight = () => {
               winnings={'19 466.92'}
               borderColor="#3A3841"
               avatarUrl={'/assets/images/avatar4.png'}
+              opacity={'opacity-40'}
             />
           </div>
         </div>

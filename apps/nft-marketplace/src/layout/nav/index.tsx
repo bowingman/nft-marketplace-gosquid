@@ -4,7 +4,7 @@ import MenuItem from '../../components/menuItem/menuItem';
 
 const Header = () => {
   return (
-    <div className="bg-[#17161A]/[.7] fixed h-20 z-10 w-full">
+    <div className="bg-[#17161A]/[.7] fixed h-20 z-20 w-full">
       <div className="xl:mx-[160px] lg:mx-[0px]">
         <div className="relative flex items-center justify-between h-20">
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">

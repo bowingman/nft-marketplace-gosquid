@@ -4,16 +4,18 @@ const PlayerItem = ({
   winnings,
   borderColor,
   avatarUrl,
+  opacity,
 }: {
   id: number;
   player: string;
   winnings: string;
   borderColor: string;
   avatarUrl: string;
+  opacity?: string;
 }) => {
   return (
     <div
-      className={`rounded-md flex border-2 border-[${borderColor}] items-center my-[15px] text-white`}
+      className={`rounded-md flex border-2 border-[${borderColor}] items-center my-[15px] text-white ${opacity}`}
     >
       <div className="leading-6 font-medium font-inter text-base ml-[60px] mr-[38px] my-[28px]">
         {id}
