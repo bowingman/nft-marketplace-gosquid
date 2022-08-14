@@ -1,5 +1,6 @@
 import CustomButton from '../../components/button/CustomButton';
 import ScrollButton from '../../components/button/ScrollButton';
+import IntroItem from '../../components/card/IntroItem';
 
 const Intro = () => {
   return (
@@ -18,38 +19,10 @@ const Intro = () => {
               anim id est laborum.
             </p>
             <div className="flex justify-between pt-10">
-              <div>
-                <p className="font-drone font-bold text-xl leading-8">
-                  $999.000
-                </p>
-                <p className="font-inter text-yellow font-medium text-sm pt-2">
-                  Active Shoulders
-                </p>
-              </div>
-              <div>
-                <p className="font-drone font-bold text-xl leading-8">
-                  $999.000
-                </p>
-                <p className="font-inter text-yellow font-medium text-sm  pt-2">
-                  Active Shoulders
-                </p>
-              </div>
-              <div>
-                <p className="font-drone font-bold text-xl leading-8">
-                  $999.000
-                </p>
-                <p className="font-inter text-yellow font-medium text-sm  pt-2">
-                  Active Shoulders
-                </p>
-              </div>
-              <div>
-                <p className="font-drone font-bold text-xl leading-8">
-                  $999.000
-                </p>
-                <p className="font-inter text-yellow font-medium text-sm  pt-2">
-                  Active Shoulders
-                </p>
-              </div>
+              <IntroItem amount={'999.000'} name={'Active Shoulders'} />
+              <IntroItem amount={'999.000'} name={'Active Shoulders'} />
+              <IntroItem amount={'999.000'} name={'Active Shoulders'} />
+              <IntroItem amount={'999.000'} name={'Active Shoulders'} />
             </div>
           </div>
           <div className="flex pt-20">
