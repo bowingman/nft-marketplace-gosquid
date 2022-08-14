@@ -13,12 +13,12 @@ const renderRow = ({
     <div className="relative font-drone">
       <img src={imageUrl} alt="newsImage.png"></img>
       <p
-        className={`font-bold text-[20px] leading-6 absolute ml-[24px] pr-[52px] top-[544px]`}
+        className={`font-bold 2xl:text-[20px] xl:text-[16px] lg:text-[20px] leading-6 absolute ml-[24px] pr-[52px] bottom-[12.94%]`}
       >
         {description}
       </p>
-      <div className="ml-[24px] absolute top-[612px] bg-[#FBC625] w-[322px] h-[1px]" />
-      <div className="text-[14px] font-medium leading-6 flex ml-[24px] absolute top-[634px] items-center">
+      <div className="ml-[6.47%] absolute bottom-[10%] bg-[#FBC625] w-[87%] h-[1px]" />
+      <div className="text-[14px] font-medium leading-6 flex ml-[24px] absolute bottom-[3.53%] items-center">
         <div className="flex items-center">
           <img
             src="/assets/images/eye.png"
@@ -55,12 +55,12 @@ const renderCol = ({
     <div className="relative font-drone">
       <img src={imageUrl} alt="newsImage.png"></img>
       <p
-        className={`font-bold text-[20px] leading-6 absolute ml-[24px] pr-[52px] top-[208px]`}
+        className={`font-bold 2xl:text-[20px] xl:text-[16px] lg:text-[20px] leading-6 absolute ml-[24px] pr-[52px] bottom-[27.5%]`}
       >
         {description}
       </p>
-      <div className="ml-[24px] absolute top-[252px] bg-[#FBC625] w-[322px] h-[1px]" />
-      <div className="text-[14px] font-medium leading-6 flex ml-[24px] absolute top-[274px] items-center">
+      <div className="w-[87%] absolute bg-[#FBC625] h-[1px] bottom-[21.25%] left-[3.87%]" />
+      <div className="text-[14px] font-medium leading-6 flex ml-[24px] absolute items-center bottom-[7.5%]">
         <div className="flex items-center">
           <img
             src="/assets/images/eye.png"
@@ -103,14 +103,12 @@ const NewsItem = ({
     <div className="relative font-drone">
       <img src={imageUrl} alt="newsImage.png"></img>
       <p
-        className={`font-bold text-[20px] leading-6 absolute ml-[24px] pr-[52px] top-[${
-          model === 'row' ? '544px' : model === 'col' ? '208px' : '184px'
-        }]`}
+        className={`font-bold 2xl:text-[20px] xl:text-[16px] lg:text-[20px] leading-6 absolute ml-[24px] pr-[52px] bottom-[27.5%]`}
       >
         {description}
       </p>
-      <div className="ml-[24px] absolute top-[252px] bg-[#FBC625] w-[322px] h-[1px]" />
-      <div className="text-[14px] font-medium leading-6 flex ml-[24px] absolute top-[274px] items-center">
+      <div className="w-[87%] absolute top-[78.75%] bg-[#FBC625] h-[1px] ml-[6.5%]" />
+      <div className="text-[14px] font-medium leading-6 flex ml-[24px] absolute top-[85%] items-center">
         <div className="flex items-center">
           <img
             src="/assets/images/eye.png"

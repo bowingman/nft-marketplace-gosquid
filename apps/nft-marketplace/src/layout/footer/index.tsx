@@ -3,7 +3,7 @@ import './style.css';
 const Footer = () => {
   return (
     <div className="bg-[#17161A] px-40 pt-[60px] pb-[40px]">
-      <div className="flex flex-wrap justify-between">
+      <div className="flex flex-wrap justify-between relative">
         <div className="h-[90px] w-[40%]">
           <img src={svg} alt="" />
         </div>
@@ -45,7 +45,7 @@ const Footer = () => {
             </form>
           </div>
         </div>
-        <div>
+        <div className="lg:absolute lg:bottom-0 xl:relative">
           <h4 className="title-20-text">CONTACT US</h4>
           <div className="flex flex-row items-center gap-[9px]">
             <svg
